@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Checksum]
+"MUIVerb"="Checksum"
+"Extended"=-
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\SHA1]
+"MUIVerb"="SHA-1"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\SHA1\command]
+@="\"C:\\Users\\Wyatt\\ChecksumExtension\\Checksum.bat\" \"%1\" SHA1"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\SHA256]
+"MUIVerb"="SHA-256"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\SHA256\command]
+@="\"C:\\Users\\Wyatt\\ChecksumExtension\\Checksum.bat\" \"%1\" SHA256"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\SHA384]
+"MUIVerb"="SHA-384"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\SHA384\command]
+@="\"C:\\Users\\Wyatt\\ChecksumExtension\\Checksum.bat\" \"%1\" SHA384"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\SHA512]
+"MUIVerb"="SHA-512"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\SHA512\command]
+@="\"C:\\Users\\Wyatt\\ChecksumExtension\\Checksum.bat\" \"%1\" SHA512"
+
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\MD2]
+"MUIVerb"="MD2"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\MD2\command]
+@="\"C:\\Users\\Wyatt\\ChecksumExtension\\Checksum.bat\" \"%1\" MD2"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\MD4]
+"MUIVerb"="MD4"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\MD4\command]
+@="\"C:\\Users\\Wyatt\\ChecksumExtension\\Checksum.bat\" \"%1\" MD4"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\MD5]
+"MUIVerb"="MD5"
+
+[HKEY_CLASSES_ROOT\*\Shell\Checksum\shell\MD5\command]
+@="\"C:\\Users\\Wyatt\\ChecksumExtension\\Checksum.bat\" \"%1\" MD5"
